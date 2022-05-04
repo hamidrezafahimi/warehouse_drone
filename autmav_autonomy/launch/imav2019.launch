@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<arg name="mission" value="avoidance_mission"/>
+	<arg name="platform" value="sim"/>
+
+	<!-- <node name="offb_node" 	pkg="autmav_autonomy" type="autmav_autonomy_node" args="$(arg mission) $(arg platform)" output="screen" respawn="false" /> -->
+	<node name="detection" 	pkg="autmav_autonomy" type="detector_node" output="screen" respawn="true" />
+	<node name="avoidance" 	pkg="autmav_autonomy" type="avoidance_node" output="screen" respawn="true" />
+
+</launch>

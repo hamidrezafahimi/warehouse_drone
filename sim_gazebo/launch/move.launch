@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+  <!-- <node name="moviePub" pkg="visual_guidance" type="moviePub.py" output="screen"/> -->
+  <node name="pycvi" pkg="visual_guidance" type="pycvi.py" output="screen"/>
+  <node name="cvi" pkg="visual_guidance" type="cvi" output="screen"/>
+  <node name="avoidance_node" pkg="visual_guidance" type="avoidanceNode.py" output="screen"/>
+  <node name="detector_node" pkg="autmav_autonomy" type="detector_node" output="screen"/>
+  <!-- <node name="controller" pkg="dynamic_control" type="controller" output="screen"/> -->
+</launch>

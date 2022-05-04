@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro"
+  name="katana_300_6m180">
+
+
+  <link name="StorageRack_1_1">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://warehouse_description/meshes/Assieme2-Assieme1-1StorageRack-1.STL"/>
+      </geometry>
+
+      <material name="grey">
+        <color rgba="0.8 0.8 0.8 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://warehouse_description/meshes/Assieme2-Assieme1-1StorageRack-1.STL"/>
+      </geometry>
+    </collision>
+    <!-- <inertial>
+      <mass value="1.4047990875" />
+      <origin xyz="-0.000327 0.000908 0.058457"/>
+      <inertia ixx="0.003000703" ixy="0.000000864" ixz="-0.000011312"
+        iyy="0.002974822" iyz="0.000036294"
+        izz="0.001434739" />
+    </inertial> -->
+  </link>
+
+<!--
+  <link name="katana_base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://katana_description/meshes/katana/katana_base_link.stl"/>
+      </geometry>
+
+      <material name="grey">
+        <color rgba="0.8 0.8 0.8 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://katana_description/meshes/katana/convex/katana_base_link_convex.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.4047990875" />
+      <origin xyz="-0.000327 0.000908 0.058457"/>
+      <inertia ixx="0.003000703" ixy="0.000000864" ixz="-0.000011312"
+        iyy="0.002974822" iyz="0.000036294"
+        izz="0.001434739" />
+    </inertial>
+  </link>
+
+
+  <link name="katana_base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://katana_description/meshes/katana/katana_base_link.stl"/>
+      </geometry>
+
+      <material name="grey">
+        <color rgba="0.8 0.8 0.8 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://katana_description/meshes/katana/convex/katana_base_link_convex.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.4047990875" />
+      <origin xyz="-0.000327 0.000908 0.058457"/>
+      <inertia ixx="0.003000703" ixy="0.000000864" ixz="-0.000011312"
+        iyy="0.002974822" iyz="0.000036294"
+        izz="0.001434739" />
+    </inertial>
+  </link>
+
+
+  <link name="katana_base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://katana_description/meshes/katana/katana_base_link.stl"/>
+      </geometry>
+
+      <material name="grey">
+        <color rgba="0.8 0.8 0.8 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://katana_description/meshes/katana/convex/katana_base_link_convex.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.4047990875" />
+      <origin xyz="-0.000327 0.000908 0.058457"/>
+      <inertia ixx="0.003000703" ixy="0.000000864" ixz="-0.000011312"
+        iyy="0.002974822" iyz="0.000036294"
+        izz="0.001434739" />
+    </inertial>
+  </link>
+
+
+  <link name="katana_base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://katana_description/meshes/katana/katana_base_link.stl"/>
+      </geometry>
+
+      <material name="grey">
+        <color rgba="0.8 0.8 0.8 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://katana_description/meshes/katana/convex/katana_base_link_convex.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.4047990875" />
+      <origin xyz="-0.000327 0.000908 0.058457"/>
+      <inertia ixx="0.003000703" ixy="0.000000864" ixz="-0.000011312"
+        iyy="0.002974822" iyz="0.000036294"
+        izz="0.001434739" />
+    </inertial>
+  </link>
+
+
+  <link name="katana_base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://katana_description/meshes/katana/katana_base_link.stl"/>
+      </geometry>
+
+      <material name="grey">
+        <color rgba="0.8 0.8 0.8 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://katana_description/meshes/katana/convex/katana_base_link_convex.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.4047990875" />
+      <origin xyz="-0.000327 0.000908 0.058457"/>
+      <inertia ixx="0.003000703" ixy="0.000000864" ixz="-0.000011312"
+        iyy="0.002974822" iyz="0.000036294"
+        izz="0.001434739" />
+    </inertial>
+  </link> -->
+
+
+</robot>

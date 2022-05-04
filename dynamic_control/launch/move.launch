@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="arcodeDetection" pkg="visual_guidance" type="arcodeDetection" output="screen"/>
+  <node name="controller" pkg="dynamic_control" type="controller" />
+</launch>
+

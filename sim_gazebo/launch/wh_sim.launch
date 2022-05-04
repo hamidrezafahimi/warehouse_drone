@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+	<env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find warehouse_description)/worlds"/>
+	<env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find warehouse_description)/worlds/models"/>
+	<env name="GAZEBO_PLUGIN_PATH" value="${GAZEBO_PLUGIN_PATH}:$(find drone_description)"/>
+
+
+	<arg name="debug" default="false"/>
+	<arg name="gui" default="true"/>
+	<arg name="paused" default="false"/>
+	<arg name="world" default="$(find warehouse_description)/worlds/warehouse.world"/>
+
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+		<arg name="world_name" value="$(arg world)"/>
+		<arg name="verbose" default="true"/>
+		<arg name="gui" value="true"/>
+		<arg name="paused" value="false"/>
+		<arg name="debug" default="false"/>
+		<arg name="use_sim_time" value="true"/>
+	</include>
+
+	<param name="robot_description" command="$(find xacro)/xacro --inorder $(find drone_description)/urdf/quadrotor.urdf.xacro id:=1" />
+
+   <!-- push robot_description to factory and spawn robot in gazebo -->
+  <node name="spawn_robot" pkg="gazebo_ros" type="spawn_model"
+        args="-param robot_description
+        -urdf
+        -x '9'
+        -y '1.25'
+        -z '0.15'
+        -R '0'
+        -P '0'
+        -Y '3.1415926535897931'
+        -model quadrotor_1"
+        respawn="false" output="screen"/>
+
+
+
+</launch>

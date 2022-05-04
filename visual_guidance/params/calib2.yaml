@@ -1,0 +1,24 @@
+%YAML:1.0
+---
+calibration_time: "Fri 04 Jan 2019 05:53:54 PM +0330"
+image_width: 960
+image_height: 720
+flags: 0
+camera_matrix: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [376.744103, 0.000000, 319.513089, 0.000000, 376.572581, 178.056011, 0.000000, 0.000000, 1.000000]
+distortion_coefficients: !!opencv-matrix
+  rows: 1
+  cols: 5
+  dt: d
+  data: [-0.000545, 0.000835, -0.000038, -0.000143, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [562.170532, 0.000000, 479.540737, 0.000000, 0.000000, 562.113770, 360.171545, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]

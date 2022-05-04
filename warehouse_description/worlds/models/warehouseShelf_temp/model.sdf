@@ -1,0 +1,2667 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="warehouseShelf">
+    <static>true</static>
+
+
+    <link name="shelf4">
+      <pose>9 3 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://warehouseShelf/meshes/rt.dae</uri>
+            <scale>0.2 0.2 0.2</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://warehouseShelf/meshes/rt.dae</uri>
+            <scale>0.2 0.2 0.2</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+    <link name="shelf5">
+      <pose>12 3 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://warehouseShelf/meshes/rt.dae</uri>
+            <scale>0.2 0.2 0.2</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://warehouseShelf/meshes/rt.dae</uri>
+            <scale>0.2 0.2 0.2</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+<!--
+    <link name="colortag211">
+     <pose>9.286400 -0.458500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag212">
+     <pose>9.286400 -0.458500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag213">
+     <pose>9.286400 -0.458500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag214">
+     <pose>9.286400 -0.458500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag215">
+     <pose>9.286400 -0.458500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag216">
+     <pose>9.286400 -0.458500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag217">
+     <pose>9.286400 -0.458500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag218">
+     <pose>9.286400 -0.458500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag219">
+     <pose>9.286400 -0.458500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag220">
+     <pose>9.286400 -0.458500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag221">
+     <pose>9.286400 0.113500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag222">
+     <pose>9.286400 0.113500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag223">
+     <pose>9.286400 0.113500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag224">
+     <pose>9.286400 0.113500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag225">
+     <pose>9.286400 0.113500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag226">
+     <pose>9.286400 0.113500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag227">
+     <pose>9.286400 0.113500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag228">
+     <pose>9.286400 0.113500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag229">
+     <pose>9.286400 0.113500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag230">
+     <pose>9.286400 0.113500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag231">
+     <pose>9.286400 0.685500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag232">
+     <pose>9.286400 0.685500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag233">
+     <pose>9.286400 0.685500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag234">
+     <pose>9.286400 0.685500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag235">
+     <pose>9.286400 0.685500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag236">
+     <pose>9.286400 0.685500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag237">
+     <pose>9.286400 0.685500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag238">
+     <pose>9.286400 0.685500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag239">
+     <pose>9.286400 0.685500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag240">
+     <pose>9.286400 0.685500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag241">
+     <pose>9.286400 1.257500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag242">
+     <pose>9.286400 1.257500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag243">
+     <pose>9.286400 1.257500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag244">
+     <pose>9.286400 1.257500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag245">
+     <pose>9.286400 1.257500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag246">
+     <pose>9.286400 1.257500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag247">
+     <pose>9.286400 1.257500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag248">
+     <pose>9.286400 1.257500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag249">
+     <pose>9.286400 1.257500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag250">
+     <pose>9.286400 1.257500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag251">
+     <pose>9.286400 1.829500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag252">
+     <pose>9.286400 1.829500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag253">
+     <pose>9.286400 1.829500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag254">
+     <pose>9.286400 1.829500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag255">
+     <pose>9.286400 1.829500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag256">
+     <pose>9.286400 1.829500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag257">
+     <pose>9.286400 1.829500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag258">
+     <pose>9.286400 1.829500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag259">
+     <pose>9.286400 1.829500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag260">
+     <pose>9.286400 1.829500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag261">
+     <pose>9.286400 2.401500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag262">
+     <pose>9.286400 2.401500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag263">
+     <pose>9.286400 2.401500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag264">
+     <pose>9.286400 2.401500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag265">
+     <pose>9.286400 2.401500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag266">
+     <pose>9.286400 2.401500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag267">
+     <pose>9.286400 2.401500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag268">
+     <pose>9.286400 2.401500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag269">
+     <pose>9.286400 2.401500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag270">
+     <pose>9.286400 2.401500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag271">
+     <pose>9.286400 2.973500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag272">
+     <pose>9.286400 2.973500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag273">
+     <pose>9.286400 2.973500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag274">
+     <pose>9.286400 2.973500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag275">
+     <pose>9.286400 2.973500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag276">
+     <pose>9.286400 2.973500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag277">
+     <pose>9.286400 2.973500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag278">
+     <pose>9.286400 2.973500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag279">
+     <pose>9.286400 2.973500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag280">
+     <pose>9.286400 2.973500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link> -->
+
+    <link name="colortag281">
+     <pose>12.286400 -0.458500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag282">
+     <pose>12.286400 -0.458500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag283">
+     <pose>12.286400 -0.458500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag284">
+     <pose>12.286400 -0.458500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag285">
+     <pose>12.286400 -0.458500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag286">
+     <pose>12.286400 -0.458500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag287">
+     <pose>12.286400 -0.458500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag288">
+     <pose>12.286400 -0.458500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag289">
+     <pose>12.286400 -0.458500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag290">
+     <pose>12.286400 -0.458500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag291">
+     <pose>12.286400 0.113500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag292">
+     <pose>12.286400 0.113500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag293">
+     <pose>12.286400 0.113500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag294">
+     <pose>12.286400 0.113500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag295">
+     <pose>12.286400 0.113500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag296">
+     <pose>12.286400 0.113500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag297">
+     <pose>12.286400 0.113500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag298">
+     <pose>12.286400 0.113500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag299">
+     <pose>12.286400 0.113500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag300">
+     <pose>12.286400 0.113500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag301">
+     <pose>12.286400 0.685500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag302">
+     <pose>12.286400 0.685500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag303">
+     <pose>12.286400 0.685500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag304">
+     <pose>12.286400 0.685500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag305">
+     <pose>12.286400 0.685500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag306">
+     <pose>12.286400 0.685500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag307">
+     <pose>12.286400 0.685500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag308">
+     <pose>12.286400 0.685500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag309">
+     <pose>12.286400 0.685500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag310">
+     <pose>12.286400 0.685500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag311">
+     <pose>12.286400 1.257500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag312">
+     <pose>12.286400 1.257500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag313">
+     <pose>12.286400 1.257500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag314">
+     <pose>12.286400 1.257500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag315">
+     <pose>12.286400 1.257500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag316">
+     <pose>12.286400 1.257500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag317">
+     <pose>12.286400 1.257500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag318">
+     <pose>12.286400 1.257500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag319">
+     <pose>12.286400 1.257500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag320">
+     <pose>12.286400 1.257500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag321">
+     <pose>12.286400 1.829500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag322">
+     <pose>12.286400 1.829500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag323">
+     <pose>12.286400 1.829500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag324">
+     <pose>12.286400 1.829500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag325">
+     <pose>12.286400 1.829500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag326">
+     <pose>12.286400 1.829500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag327">
+     <pose>12.286400 1.829500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag328">
+     <pose>12.286400 1.829500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag329">
+     <pose>12.286400 1.829500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag330">
+     <pose>12.286400 1.829500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag331">
+     <pose>12.286400 2.401500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag332">
+     <pose>12.286400 2.401500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag333">
+     <pose>12.286400 2.401500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag334">
+     <pose>12.286400 2.401500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag335">
+     <pose>12.286400 2.401500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag336">
+     <pose>12.286400 2.401500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag337">
+     <pose>12.286400 2.401500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag338">
+     <pose>12.286400 2.401500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag339">
+     <pose>12.286400 2.401500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag340">
+     <pose>12.286400 2.401500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag341">
+     <pose>12.286400 2.973500 2.780450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag342">
+     <pose>12.286400 2.973500 2.480450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag343">
+     <pose>12.286400 2.973500 2.180450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag344">
+     <pose>12.286400 2.973500 1.880450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag345">
+     <pose>12.286400 2.973500 1.580450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag346">
+     <pose>12.286400 2.973500 1.280450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag347">
+     <pose>12.286400 2.973500 0.980450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag348">
+     <pose>12.286400 2.973500 0.680450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag349">
+     <pose>12.286400 2.973500 0.380450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+    <link name="colortag350">
+     <pose>12.286400 2.973500 0.080450 0 0 0</pose>
+     <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.05000 0.05000</size>
+      </box>
+      </geometry>
+      <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>1 0.145 0.9765 1</diffuse>
+      <specular>0 0 0 0</specular>
+      <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+     </link>
+
+
+
+ </model>
+</sdf>
+
+
+
+<!-- <?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="warehouseShelf">
+    <static>true</static>
+
+    <link name="shelf1">
+      <pose>0 0 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>1 1 1</size>
+          </box>
+        </geometry>
+        <material>
+        <ambient>0.1 0.1 0.1 1</ambient>
+        <diffuse>0.79 0.64 0.45 1</diffuse>
+        <specular>0 0 0 0</specular>
+        <emissive>0 0 0 1</emissive>
+      </material>
+      </visual>
+    </link>
+
+
+    <link name="tag22">
+     <pose>0.5 0 0.5 0 0 0</pose>
+    <visual name="visual">
+     <cast_shadows>false</cast_shadows>
+     <geometry>
+     <box>
+     <size> 0.0001 0.50000 0.50000</size>
+     </box>
+     </geometry>
+     <material>
+     <script>
+     <uri>model://warehouseShelf/materials/scripts</uri>
+     <uri>model://warehouseShelf/materials/textures</uri>
+     <name>22</name>
+     </script>
+     </material>
+     </visual>
+     </link>
+
+
+
+     <link name="tag78">
+      <pose>0 0.5 0.5 0 0 1.570796325</pose>
+     <visual name="visual">
+      <cast_shadows>false</cast_shadows>
+      <geometry>
+      <box>
+      <size> 0.0001 0.50000 0.50000</size>
+      </box>
+      </geometry>
+      <material>
+      <script>
+      <uri>model://warehouseShelf/materials/scripts</uri>
+      <uri>model://warehouseShelf/materials/textures</uri>
+      <name>78</name>
+      </script>
+      </material>
+      </visual>
+      </link>
+
+
+      <link name="tag126">
+       <pose>0 0 1 0 1.570796325 0</pose>
+      <visual name="visual">
+       <cast_shadows>false</cast_shadows>
+       <geometry>
+       <box>
+       <size> 0.0001 0.50000 0.50000</size>
+       </box>
+       </geometry>
+       <material>
+       <script>
+       <uri>model://warehouseShelf/materials/scripts</uri>
+       <uri>model://warehouseShelf/materials/textures</uri>
+       <name>126</name>
+       </script>
+       </material>
+       </visual>
+       </link>
+
+
+ </model>
+</sdf> -->

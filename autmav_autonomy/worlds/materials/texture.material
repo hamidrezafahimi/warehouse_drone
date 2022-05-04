@@ -1,0 +1,44 @@
+material Concrete
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture concrete.jpg
+        scale 1 0.05
+      }
+    }
+  }
+}
+
+material Green
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture green.jpg
+        scale 1 0.05
+      }
+    }
+  }
+}
+
+material Wood
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wood.jpg
+        scale 1 0.05
+      }
+    }
+  }
+}
