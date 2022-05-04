@@ -1,0 +1,4 @@
+/home/hamidreza/thesis/arcode/build/CMakeFiles/rebuild_cache.dir
+/home/hamidreza/thesis/arcode/build/CMakeFiles/create_marker.dir
+/home/hamidreza/thesis/arcode/build/CMakeFiles/edit_cache.dir
+/home/hamidreza/thesis/arcode/build/CMakeFiles/detect_markers.dir

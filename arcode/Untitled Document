@@ -1,0 +1,1001 @@
+ 1002  ./test_node.py 
+ 1003  clear
+ 1004  ./test_node.py 
+ 1005  clear
+ 1006  ./test_node.py 
+ 1007  clear
+ 1008  ./test_node.py 
+ 1009  clear
+ 1010  ./test_node.py 
+ 1011  clear
+ 1012  ./test_node.py 
+ 1013  clear
+ 1014  ./test_node.py 
+ 1015  clear
+ 1016  ./test_node.py 
+ 1017  clear
+ 1018  ./test_node.py 
+ 1019  clear
+ 1020  ./test_node.py 
+ 1021  clear
+ 1022  ./test_node.py 
+ 1023  clear
+ 1024  ./test_node.py 
+ 1025  clear
+ 1026  ./test_node.py 
+ 1027  clear
+ 1028  ./test_node.py 
+ 1029  clear
+ 1030  ./test_node.py 
+ 1031  clear
+ 1032  exit
+ 1033  cd project_82/wd_ws/
+ 1034  source devel/setup.bash 
+ 1035  roslaunch simulate simulation.launch 
+ 1036  cd build
+ 1037  cmake ..
+ 1038  make
+ 1039  ./create_marker -d:=10 
+ 1040  ./create_marker -d:=10 -id:=1
+ 1041  ./create_marker -d=10 -id:=1
+ 1042  ./create_marker -d=10 -id=1
+ 1043  ./create_marker -d:10 -id:1
+ 1044  ./create_marker -d:=10 -id:=1 image.jpg
+ 1045  ./create_marker -d=10 -id=1 image.jpg
+ 1046  cd thesis/workSpace/
+ 1047  source devel/setup.bash 
+ 1048  roslaunch sim_gazebo wh_sim.launch 
+ 1049  exit
+ 1050  cd wss/
+ 1051  ls
+ 1052  cd adrone/
+ 1053  cd src/
+ 1054  ls
+ 1055  roslaunch imav_2017 imav_indoor.launch 
+ 1056  cd thesis/workSpace/
+ 1057  source devel/setup.bash 
+ 1058  nautilus src/
+ 1059  roslaunch sim_gazebo wh_sim.launch
+ 1060  exit
+ 1061  cd ..
+ 1062  ls
+ 1063  cd usr/share/gazebo-7/models/sun/
+ 1064  ls
+ 1065  sudo gedit model.sdf 
+ 1066  cd ~
+ 1067  cd wss/adrone/src/
+ 1068  siudseb
+ 1069  cd ..
+ 1070  source devel/setup.bash 
+ 1071  roslaunch imav_2017 imav_indoor.launch 
+ 1072  exit
+ 1073  cd thesis/workSpace/
+ 1074  source devel/setup.bash 
+ 1075  roslaunch sim_gazebo wh_sim.launch 
+ 1076  exit
+ 1077  cd thesis/workSpace/
+ 1078  source devel/setup.bash 
+ 1079  roslaunch sim_gazebo wh_sim.launch 
+ 1080  exit
+ 1081  cd thesis/workSpace/src/offline/
+ 1082  cd build/
+ 1083  cmake ..
+ 1084  make
+ 1085  clear
+ 1086  make
+ 1087  clear
+ 1088  make
+ 1089  clear
+ 1090  make
+ 1091  clear
+ 1092  make
+ 1093  clear
+ 1094  make
+ 1095  clear
+ 1096  make
+ 1097  clear
+ 1098  make
+ 1099  clear
+ 1100  make
+ 1101  clear
+ 1102  make
+ 1103  clear
+ 1104  make
+ 1105  clear
+ 1106  make
+ 1107  clear
+ 1108  make
+ 1109  ./shelfArrangement 
+ 1110  make
+ 1111  ./shelfArrangement 
+ 1112  make
+ 1113  ./shelfArrangement 
+ 1114  make
+ 1115  ./shelfArrangement 
+ 1116  make
+ 1117  ./shelfArrangement 
+ 1118  make
+ 1119  clear
+ 1120  make
+ 1121  clear
+ 1122  make
+ 1123  ./shelfArrangement 
+ 1124  make
+ 1125  ./shelfArrangement 
+ 1126  make
+ 1127  clear
+ 1128  make
+ 1129  clear
+ 1130  make
+ 1131  clear
+ 1132  make
+ 1133  ./shelfArrangement 
+ 1134  make
+ 1135  ./shelfArrangement 
+ 1136  make
+ 1137  ./shelfArrangement 
+ 1138  make
+ 1139  ./shelfArrangement 
+ 1140  make
+ 1141  ./shelfArrangement 
+ 1142  clear
+ 1143  ./shelfArrangement 
+ 1144  clear
+ 1145  make
+ 1146  ./shelfArrangement 
+ 1147  make
+ 1148  ./shelfArrangement 
+ 1149  clear
+ 1150  make
+ 1151  ./shelfArrangement 
+ 1152  clear
+ 1153  make
+ 1154  ./shelfArrangement 
+ 1155  clear
+ 1156  make
+ 1157  clear
+ 1158  ./shelfArrangement 
+ 1159  make
+ 1160  ./shelfArrangement 
+ 1161  make
+ 1162  clear
+ 1163  ./shelfArrangement 
+ 1164  clear
+ 1165  make
+ 1166  ./shelfArrangement 
+ 1167  clear
+ 1168  make
+ 1169  ./shelfArrangement 
+ 1170  make
+ 1171  ./shelfArrangement 
+ 1172  clear
+ 1173  ./shelfArrangement 
+ 1174  clear
+ 1175  ./shelfArrangement 
+ 1176  clear
+ 1177  ./shelfArrangement 
+ 1178  clear
+ 1179  ./shelfArrangement 
+ 1180  clear
+ 1181  ./shelfArrangement 
+ 1182  clear
+ 1183  ./shelfArrangement 
+ 1184  clear
+ 1185  ./shelfArrangement 
+ 1186  clear
+ 1187  exit
+ 1188  cmake ..
+ 1189  xit
+ 1190  exit
+ 1191  cmake ..
+ 1192  xit
+ 1193  exit
+ 1194  ./create_marker 
+ 1195  ./create_marker 10 1 
+ 1196  ./create_marker 10 1 im.jpg
+ 1197  ./create_marker 1 10 1 im.jpg
+ 1198  ./create_marker DICT_5X5_100=5 im.jpg
+ 1199  ./create_marker -d 1  im.jpg
+ 1200  ./create_marker -d 1 im.jpg
+ 1201  ./create_marker -d:=10 -id:=1 im.jpg
+ 1202  ./create_marker -d=10 -id=1 im.jpg
+ 1203  ./create_marker -d=10 -id= im.jpg
+ 1204  ./create_marker -d=10  im.jpg
+ 1205  ./create_marker -d=10 im.jpg
+ 1206  ./create_marker -d=10 -id=2 im.jpg
+ 1207  ./create_marker -d=10 -id=3 im3.jpg
+ 1208  history
+ 1209  cmake ..
+ 1210  make
+ 1211  cmake ..
+ 1212  make
+ 1213  python text_recognition.py 
+ 1214  pip install --upgrade imutils
+ 1215  sudo pip install --upgrade imutils
+ 1216  python text_recognition.py 
+ 1217  sudo pip install --upgrade imutils
+ 1218  sudo pip3 install --upgrade imutils
+ 1219  sudo pip3 uninstall imutils
+ 1220  sudo pip3 install --upgrade imutils
+ 1221  cmake ..
+ 1222  cd ..
+ 1223  cd build
+ 1224  cmake ..
+ 1225  make
+ 1226  cmake ..
+ 1227  make
+ 1228  cmake ..
+ 1229  make
+ 1230  cmake ..
+ 1231  cd ..
+ 1232  cd build/
+ 1233  cmake ..
+ 1234  make
+ 1235  cd ..
+ 1236  mkdir qrcg
+ 1237  cd ..
+ 1238  cd q
+ 1239  cd qrcg/
+ 1240  cd build/
+ 1241  cmake ..
+ 1242  make
+ 1243  cmake ..
+ 1244  make
+ 1245  python text_recognition.py 
+ 1246  sudo pip install pytesseract
+ 1247  sudo pip3 install pytesseract
+ 1248  sudo add-apt-repository ppa:alex-p/tesseract-ocr
+ 1249  sudo apt-get update
+ 1250  sudo apt install tesseract-ocr
+ 1251  sudo apt install libtesseract-dev
+ 1252  sudo pip install pytesseract
+ 1253  tesseract --version
+ 1254  tesseract imag.jpg stdout -l eng --oem 1 --psm 3
+ 1255  cd build/
+ 1256  cmake ..
+ 1257  make
+ 1258  cmake ..
+ 1259  cmake ..
+ 1260  make
+ 1261  cmake clean
+ 1262  make
+ 1263  sudo apt remove cmake
+ 1264  chmod +x /opt/cmake-3.18.0-Linux-x86_64.sh
+ 1265  sudo chmod +x /opt/cmake-3.18.0-Linux-x86_64.sh
+ 1266  sudo bash /opt/cmake-3.18.0-Linux-x86_64.sh
+ 1267  sudo ln -s /opt/cmake-3.18.0-Linux-x86_64/bin/* /usr/local/bin
+ 1268  cmake --version
+ 1269  sudo apt-get install cmake
+ 1270  cmake --version
+ 1271  sudo apt remove --purge --auto-remove cmake
+ 1272  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+ 1273  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+ 1274  sudo apt update
+ 1275  sudo apt install ros-kinetic-desktop -y
+ 1276  rosdep init
+ 1277  sudo rosdep init
+ 1278  sudo apt install python-rosinstall -y
+ 1279  sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+ 1280  wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
+ 1281  sudo apt update
+ 1282  sudo apt install gazebo7 libgazebo7-dev
+ 1283  sudo apt install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
+ 1284  sudo apt install ros-kinetic-hector-gazebo-plugins ros-kinetic-hector-sensors-description ros-kinetic-hector-gazebo
+ 1285  mkdir build
+ 1286  cd build/
+ 1287  cmake ..
+ 1288  cd ../..
+ 1289  cmake --version
+ 1290  cd thesis/workSpace/
+ 1291  source devel/setup.bash 
+ 1292  roslaunch sim_gazebo wh_sim.launch 
+ 1293  exit
+ 1294  cd thesis/workSpace/
+ 1295  source devel/setup.bash 
+ 1296  roslaunch sim_gazebo wh_sim.launch 
+ 1297  cd build/
+ 1298  cmake ../
+ 1299  dpkg --listfiles tesseract
+ 1300  tesseract --version
+ 1301  dpkg --listfiles tesseract-ocr
+ 1302  dpkg --l tesseract-ocr
+ 1303  dpkg -l tesseract-ocr
+ 1304  sudo cp cmake-3.18.0-Linux-x86_64(1).sh /opt
+ 1305  sudo cp /home/hamidreza/cmake-3.18.0-Linux-x86_64(1).sh /opt
+ 1306  sudo cp /home/hamidreza/cmake-3.18.0-Linux-x86_64.sh /opt
+ 1307  ls
+ 1308  cd Desktop/
+ 1309  cd hough/
+ 1310  cd build/
+ 1311  cmake ..
+ 1312  cmake ..
+ 1313  make
+ 1314  cmake ..
+ 1315  make
+ 1316  ./create_marker 
+ 1317  ./create_marker -d=10 --id=100 im.jpg
+ 1318  cmake ..
+ 1319  make
+ 1320  ./detect_markers 
+ 1321  ./detect_markers -c=calib.yaml -d=10 -dp=detector_params.yml 
+ 1322  ./detect_markers -c=calib.yaml -d=10 -dp=detector_params.yaml 
+ 1323  ./detect_markers -c=calib.yaml -d=10  
+ 1324  ./detect_markers -c=calib1.yaml -d=10  
+ 1325  ./detect_markers -c=calib1.txt -d=10  
+ 1326  ./detect_markers -c=calib.txt -d=10  
+ 1327  ./detect_markers 
+ 1328  ./detect_markers -c=calib.txt -d=10  
+ 1329  ./detect_markers -c="calib.txt" -d=10  
+ 1330  ./detect_markers -c="calib.yaml" -d=10  
+ 1331  ./detect_markers -c="/home/hamidreza/thesis/arcode/calib.yaml" -d=10  
+ 1332  ./detect_markers -c="/home/hamidreza/thesis/arcode/calib.yaml" -d=10  -l=0.5
+ 1333  ./detect_markers -c="/home/hamidreza/thesis/arcode/calib1.txt" -d=10  -l=0.5
+ 1334  ./detect_markers -c="/home/hamidreza/thesis/arcode/calib1.txt" -d=0  -l=0.5
+ 1335  tesseract imag.jpg stdout -l eng --oem 1 --psm 3
+ 1336  cd thesis/workSpace/
+ 1337  source devel/setup.bash 
+ 1338  roslaunch sim_gazebo wh_sim.launch 
+ 1339  exit
+ 1340  cd thesis/workSpace/
+ 1341  source devel/setup.bash 
+ 1342  roslaunch sim_gazebo wh_sim.launch 
+ 1343  cmake ..
+ 1344  make
+ 1345  ./shelfArrangement 
+ 1346  clear
+ 1347  cmake ..
+ 1348  make
+ 1349  ./generateMaterialScript 
+ 1350  clear
+ 1351  cd thesis/workSpace/
+ 1352  source devel/setup.bash 
+ 1353  roslaunch sim_gazebo wh_sim.launch 
+ 1354  cd ~
+ 1355  cd project_82/wd_ws/
+ 1356  source devel/setup.bash 
+ 1357  roslaunch simulate simulation.launch 
+ 1358  exit
+ 1359  cd thesis/workSpace/
+ 1360  source devel/setup.bash 
+ 1361  cd ..
+ 1362  cd offline/b
+ 1363  cd offline
+ 1364  ls
+ 1365  cd shelfArrangement/
+ 1366  cd build/
+ 1367  cmake ..
+ 1368  make
+ 1369  ./shelfArrangement 
+ 1370  make
+ 1371  ./shelfArrangement 
+ 1372  clear
+ 1373  ./shelfArrangement 
+ 1374  clear
+ 1375  ./generateMaterialScript 
+ 1376  make
+ 1377  ./generateMaterialScript 
+ 1378  make
+ 1379  ./generateMaterialScript 
+ 1380  make
+ 1381  ./generateMaterialScript 
+ 1382  clear
+ 1383  ./generateMaterialScript 
+ 1384  clear
+ 1385  ./shelfArrangement 
+ 1386  clear
+ 1387  ./shelfArrangement 
+ 1388  clear
+ 1389  make
+ 1390  ./shelfArrangement 
+ 1391  clear
+ 1392  make
+ 1393  ./shelfArrangement 
+ 1394  clear
+ 1395  make
+ 1396  ./shelfArrangement 
+ 1397  clear
+ 1398  make
+ 1399  cd ~
+ 1400  cd project_82/wd_ws/src/window_enterance/windowDetection/
+ 1401  ./test_node.py 
+ 1402  conda activate tello_env
+ 1403  ./test_node.py 
+ 1404  clear
+ 1405  ./test_node.py 
+ 1406  cd thesis/workSpace/
+ 1407  source devel/setup.bash 
+ 1408  roslaunch sim_gazebo wh_sim.launch 
+ 1409  cd ~
+ 1410  cd project_82/wd_ws/
+ 1411  source devel/setup.bash 
+ 1412  roslaunch simulate simulation.launch 
+ 1413  exit
+ 1414  cd project_82/wd_ws/src/window_enterance/windowDetection/
+ 1415  cd ../../..
+ 1416  source devel/setup.bash 
+ 1417  conda activate tello_env
+ 1418  cd src/window_enterance/windowDetection/
+ 1419  ./test_node.py 
+ 1420  exit
+ 1421  cd project_82/wd_ws/
+ 1422  source devel/setup.bash 
+ 1423  cd src/
+ 1424  cd window_enterance/
+ 1425  git status
+ 1426  git add .
+ 1427  git status
+ 1428  git commit -m "Report time"
+ 1429  git push gitlab master 
+ 1430  exit
+ 1431  2555555522286644111237894++++++
+ 1432  666
+ 1433  654564567893212
+ 1434  sudo shutdown -h now
+ 1435  cd thesis/workSpace/
+ 1436  source devel/setup.bash 
+ 1437  cd src/warehouse_description/
+ 1438  cd ..
+ 1439  cd sim_gazebo/
+ 1440  cd src/
+ 1441  cd ..
+ 1442  ls
+ 1443  cd launch/
+ 1444  ls
+ 1445  atom wh_sim.launch 
+ 1446  cd ..
+ 1447  catkin_create_pkg drone_description rospy roscpp
+ 1448  ls
+ 1449  cd drone_description/
+ 1450  ls
+ 1451  mkdir
+ 1452  mkdir urdf
+ 1453  mkdir meshes
+ 1454  ls
+ 1455  roslaunch sim_gazebo wh_sim.launch 
+ 1456  cd ../..
+ 1457  source devel/setup.bash 
+ 1458  roslaunch sim_gazebo wh_sim.launch 
+ 1459  cd src/
+ 1460  ls
+ 1461  cd drone_description/
+ 1462  ls
+ 1463  cd urdf/
+ 1464  atom quadrotor.urdf.xacro 
+ 1465  roslaunch sim_gazebo wh_sim.launch 
+ 1466  atom quadrotor_base.urdf.xacro 
+ 1467  roslaunch sim_gazebo wh_sim.launch 
+ 1468  atom quadrotor_simple_controller.urdf.xacro 
+ 1469  ls
+ 1470  cd sensors/
+ 1471  ls
+ 1472  arom generic_camera.urdf.xacro 
+ 1473  atom generic_camera.urdf.xacro 
+ 1474  atom quadrotor_sensors.urdf.xacro 
+ 1475  atom hokuyo_utm30lx.urdf.xacro 
+ 1476  atom sonar_sensor.urdf.xacro 
+ 1477  roslaunch sim_gazebo wh_sim.launch 
+ 1478  cd ../../../..
+ 1479  catkin_make
+ 1480  roslaunch sim_gazebo wh_sim.launch 
+ 1481  exit
+ 1482  rqt
+ 1483  exit
+ 1484  cd project_82/wd_ws/
+ 1485  source devel/setup.bash 
+ 1486  cd src/window_enterance/simulate/
+ 1487  ls
+ 1488  meshes/
+ 1489  ls
+ 1490  cd meshes/
+ 1491  ls
+ 1492  cd quadrotor/
+ 1493  ls
+ 1494  cd ../..
+ 1495  cd launch/
+ 1496  ls
+ 1497  atom simulation.launch 
+ 1498  cd ..
+ 1499  ls
+ 1500  cd urdf/
+ 1501  ls
+ 1502  atom quadrotor.urdf.xacro 
+ 1503  atom quadrotor_base.urdf.xacro 
+ 1504  exit
+ 1505  cd project_82/wd_ws/
+ 1506  source devel/setup.bash 
+ 1507  conda activate tello_env
+ 1508  cd src/window_enterance/windowDetection/
+ 1509  atom test_node.py 
+ 1510  ./test_node.py 
+ 1511  cd project_82/wd_ws/
+ 1512  source devel/setup.bash 
+ 1513  cd src/window_enterance/windowDetection/
+ 1514  ./test_node.py 
+ 1515  conda activate tello_env
+ 1516  ./test_node.py 
+ 1517  cd project_82/wd_ws/
+ 1518  source devel/setup.bash 
+ 1519  conda activate tello_env
+ 1520  cd src/window_enterance/windowDetection/
+ 1521  ./test_node.py 
+ 1522  cd project_82/wd_ws/
+ 1523  source devel/setup.bash 
+ 1524  cd src/window_enterance/windowDetection/
+ 1525  ./test_node.py 
+ 1526  exit
+ 1527  cd project_82/wd_ws/
+ 1528  source devel/setup.bash 
+ 1529  roslaunch simulate simulation.launch 
+ 1530  exit
+ 1531  cd project_82/wd_ws/
+ 1532  source devel/setup.bash 
+ 1533  conda activate tello_env
+ 1534  cd src/window_enterance/windowDetection/
+ 1535  atom test_node.py 
+ 1536  ./test_node.py 
+ 1537  rosbag play 2020-06-21-18-19-43.bag 
+ 1538  roscore
+ 1539  cd project_82/wd_ws/
+ 1540  source devel/setup.bash 
+ 1541  cd src/window_enterance/windowDetection/
+ 1542  atom utility.py
+ 1543  atom windowFrameAnalysis.py
+ 1544  cd ../..
+ 1545  cd window_enterance/
+ 1546  git add .
+ 1547  git commit -m "after report"
+ 1548  git add .
+ 1549  git commit -m "after report"
+ 1550  git push gitlab master 
+ 1551  exit
+ 1552  ls
+ 1553  exit
+ 1554  cd project_82/wd_ws/
+ 1555  cd src/window_enterance/
+ 1556  cd params/
+ 1557  cp controlParams.yaml ~/thesis/workSpace/src/visual_guidance/params/
+ 1558  exit
+ 1559  cd project_82/wd_ws/src/
+ 1560  ls
+ 1561  cd window_enterance/
+ 1562  ls
+ 1563  cd py_simulate/
+ 1564  ls
+ 1565  cd src/
+ 1566  ls
+ 1567  cd ..
+ 1568  cd simulate/
+ 1569  cd src/
+ 1570  ls
+ 1571  atom impro.cpp 
+ 1572  exit
+ 1573  ls
+ 1574  history
+ 1575  ./detect_markers -c="/home/hamidreza/thesis/arcode/calib1.txt" -d=0  -l=0.5
+ 1576  cd build/
+ 1577  ./detect_markers -c="/home/hamidreza/thesis/arcode/calib1.txt" -d=0  -l=0.5
+ 1578  cd ..
+ 1579  geditc
+ 1580  gedit CMakeLists.txt 
+ 1581  cd ../workSpace/src/visual_guidance/src/
+ 1582  ls
+ 1583  atom arcodeDetection.cpp
+ 1584  exit
+ 1585  atom warehouse_temp.world 
+ 1586  atom warehouse.world 
+ 1587  cd models/warehouseShelf/
+ 1588  atom model.sdf 
+ 1589  cd ..
+ 1590  mkdir warehouseShelf_temp
+ 1591  cd warehouseShelf
+ 1592  ls
+ 1593  cp -i meshes ../warehouseShelf_temp/
+ 1594  cd ../warehouseShelf_temp/
+ 1595  ls
+ 1596  cd ..
+ 1597  cd warehouseShelf
+ 1598  cp -R meshes ../warehouseShelf_temp/
+ 1599  cd ..
+ 1600  cd warehouseShelf_temp/
+ 1601  ls
+ 1602  cd meshes/
+ 1603  ls
+ 1604  cd ../..
+ 1605  cd warehouseShelf
+ 1606  ls
+ 1607  cp model.config model.sdf ../warehouseShelf_temp/
+ 1608  cd ..
+ 1609  cd warehouseShelf_temp/
+ 1610  ls
+ 1611  atom model.sdf 
+ 1612  cd ..
+ 1613  cd ~
+ 1614  cd project_82/wd_ws/
+ 1615  cd src/window_enterance/windowDetection/exit
+ 1616  cd src/window_enterance/windowDetection/
+ 1617  ls
+ 1618  cp utility.py windowsExtraction.py test_node.py ~/thesis/workSpace/src/visual_guidance/src/
+ 1619  cd ..
+ 1620  ls
+ 1621  cd params/
+ 1622  ls
+ 1623  cp params.yaml ~/thesis/workSpace/src/visual_guidance/params/
+ 1624  cd ..
+ 1625  cd windowDetection/
+ 1626  cp -i windowFrameAnalysis.py windowTracking.py windowDetection.py ~/thesis/workSpace/src/visual_guidance/src/
+ 1627  cd ~
+ 1628  cd thesis/workSpace/src/
+ 1629  cd visual_guidance/src/
+ 1630  conda activate tello_env
+ 1631  ./test_node.py 
+ 1632  ls
+ 1633  atom
+ 1634  atom windowDetection.py
+ 1635  ./test_node.py 
+ 1636  atom cvi.cpp
+ 1637  ls
+ 1638  chmod +x windowDetection.py
+ 1639  ls
+ 1640  cp test_node.py pycvi.py
+ 1641  atom pycvi.py 
+ 1642  ls
+ 1643  ./pycvi.py 
+ 1644  atom windowsExtraction.py
+ 1645  ./pycvi.py 
+ 1646  ls
+ 1647  mv img13.jpg ../
+ 1648  cd ..
+ 1649  ls
+ 1650  mv img13.jpg ../../..
+ 1651  cd ../../..
+ 1652  ls
+ 1653  mv img13.jpg offline/
+ 1654  cd offline/
+ 1655  ls
+ 1656  mkdir arcDetection
+ 1657  cd arcDetection/
+ 1658  mkdir build
+ 1659  atom CMakeLists.txt
+ 1660  gedit CMakeLists.txt 
+ 1661  atom arcd.cpp
+ 1662  cd build/
+ 1663  make
+ 1664  cmake ..
+ 1665  make
+ 1666  cd ,,
+ 1667  cd ..
+ 1668  ls
+ 1669  cd ..
+ 1670  ls
+ 1671  mv img13.jpg arcDetection/build/
+ 1672  cd arcDetection/build/
+ 1673  make
+ 1674  ./arcd 
+ 1675  make
+ 1676  [A
+ 1677  make
+ 1678  ./arcd 
+ 1679  ls
+ 1680  ./arcd 
+ 1681  make
+ 1682  ./arcd 
+ 1683  make
+ 1684  ./arcd 
+ 1685  make
+ 1686  ./arcd 
+ 1687  make
+ 1688  ./arcd 
+ 1689  make
+ 1690  ./arcd 
+ 1691  make
+ 1692  ./arcd 
+ 1693  make
+ 1694  ./arcd 
+ 1695  cd th
+ 1696  cd thesis/
+ 1697  cd workSpace/
+ 1698  source devel/setup.bash 
+ 1699  cd src/
+ 1700  ls
+ 1701  cd sim_gazebo/
+ 1702  cd launch/
+ 1703  ls
+ 1704  cp -i wh_sim.launch 
+ 1705  cp --help 
+ 1706  cp -i wh_sim.launch tmp_sim.launch
+ 1707  ls
+ 1708  atom tmp_sim.launch 
+ 1709  roslaunch sim_gazebo tmp_sim.launch 
+ 1710  cd ..
+ 1711  cd ../..
+ 1712  cd src/
+ 1713  catkin_create_pkg visual_guidance roscpp rospy
+ 1714  cd ..
+ 1715  catkin_make
+ 1716  cd src/visual_guidance/
+ 1717  ls
+ 1718  cd src/
+ 1719  ls
+ 1720  atom test_node.py 
+ 1721  cd ../..
+ 1722  cd visual_guidance/
+ 1723  ls
+ 1724  mkdir params
+ 1725  مس
+ 1726  ls
+ 1727  cd src/
+ 1728  sl
+ 1729  ls
+ 1730  cd ../../..
+ 1731  roslaunch sim_gazebo tmp_sim.launch 
+ 1732  roslaunch sim_gazebo wh_sim.launch 
+ 1733  cd project_82/wd_ws/src/window_enterance/simulate/src/
+ 1734  atom impro.cpp 
+ 1735  exit
+ 1736  cd Pictures/
+ 1737  ls
+ 1738  eog Screenshot\ from\ 2020-08-02\ 18-33-15.png 
+ 1739  exit
+ 1740  cd project_82/wd_ws/src/window_enterance/
+ 1741  ls
+ 1742  cd simulate/
+ 1743  atom CMakeLists.txt 
+ 1744  cd ~
+ 1745  cd thesis/workSpace/src/visual_guidance/
+ 1746  atom package.xml 
+ 1747  cd ../..
+ 1748  cd ..
+ 1749  cd arcode/
+ 1750  ls
+ 1751  atom detect
+ 1752  atom detect_markers.cpp 
+ 1753  cd ..
+ 1754  cd workSpace/src/
+ 1755  cd ..
+ 1756  source devel/setup.bash 
+ 1757  rosrun visual_guidance arcodeDetection 
+ 1758  catkin_make
+ 1759  rosrun visual_guidance arcodeDetection 
+ 1760  [A
+ 1761  catkin_make
+ 1762  rosrun visual_guidance arcodeDetection 
+ 1763  catkin_make
+ 1764  rosrun visual_guidance arcodeDetection 
+ 1765  catkin_make
+ 1766  rosrun visual_guidance arcodeDetection 
+ 1767  cd src/
+ 1768  ls
+ 1769  cd warehouse_description/
+ 1770  ls
+ 1771  cd meshes/
+ 1772  ls
+ 1773  rm Assieme2-Assieme1-1StorageRack-1.STL 
+ 1774  history
+ 1775  cp --help
+ 1776  cd ..
+ 1777  rm -rf meshes/
+ 1778  ls
+ 1779  cd worlds/
+ 1780  ls
+ 1781  cd models/
+ 1782  ls
+ 1783  cd warehouseShelf
+ 1784  ls
+ 1785  atom model.sdf 
+ 1786  ls
+ 1787  cd ../../..
+ 1788  cd ../..
+ 1789  rosrun visual_guidance arcodeDetection 
+ 1790  cd ..
+ 1791  cd offline/
+ 1792  ls
+ 1793  cd shelfArrangement/
+ 1794  ls
+ 1795  atom shelfArrangement.cpp 
+ 1796  cd build/
+ 1797  make
+ 1798  ./shelfArrangement 
+ 1799  clear
+ 1800  ./shelfArrangement 
+ 1801  exit
+ 1802  cd Pictures/
+ 1803  xdg-open Screenshot\ from\ 2020-08-02\ 18-33-15.png 
+ 1804  cd ~
+ 1805  cd thesis/workSpace/
+ 1806  source devel/setup.bash 
+ 1807  rosrun visual_guidance arcodeDetection 
+ 1808  exit
+ 1809  cd thesis/workSpace/src/visual_guidance/src/
+ 1810  ls
+ 1811  atom arcodeDetection.cpp 
+ 1812  cd cd ..
+ 1813  cd ..
+ 1814  atom CMakeLists.txt 
+ 1815  cd src/
+ 1816  ls
+ 1817  cd ../../..
+ 1818  source devel/setup.bash 
+ 1819  catkin_make
+ 1820  roslaunch sim_gazebo wh_sim.launch 
+ 1821  cd src/
+ 1822  ls
+ 1823  cd drone_description/
+ 1824  ls
+ 1825  cd urdf/
+ 1826  ls
+ 1827  cd sensors/
+ 1828  ls
+ 1829  atom generic_camera.urdf.xacro 
+ 1830  atom quadrotor_sensors.urdf.xacro 
+ 1831  atom hokuyo_utm30lx.urdf.xacro 
+ 1832  cd ..
+ 1833  ls
+ 1834  atom quadrotor.urdf.xacro 
+ 1835  cd ../../..
+ 1836  source devel/setup.bash 
+ 1837  roslaunch sim_gazebo wh_sim.launch 
+ 1838  source devel/setup.bash 
+ 1839  roslaunch sim_gazebo wh_sim.launch 
+ 1840  sudo apt-get install ros-kinetic-camera-info-manager-py
+ 1841  cd thesis/workSpace/
+ 1842  source devel/setup.bash 
+ 1843  roslaunch sim_gazebo wh_sim.launch 
+ 1844  roslaunch sim_gazebo tmp_sim.launch 
+ 1845  roslaunch sim_gazebo wh_sim.launch 
+ 1846  roscore
+ 1847  roslaunch sim_gazebo wh_sim.launch 
+ 1848  cd ~
+ 1849  cd project_82/wd_ws/
+ 1850  conda activate tello_env
+ 1851  cd src/window_enterance/windowDetection/
+ 1852  atom test_node.py 
+ 1853  rostopic list 
+ 1854  rostopic echo /tello/camera/camera_info 
+ 1855  rostopic list 
+ 1856  rostopic echo /quadrotor_1/ground_truth/state
+ 1857  rostopic echo /tello/odom 
+ 1858  cd thesis/workSpace/
+ 1859  source devel/setup.bash 
+ 1860  cd src/
+ 1861  ls
+ 1862  cd warehouse_description/
+ 1863  ls
+ 1864  cd worlds/models/
+ 1865  ls
+ 1866  cd warehouseShelf
+ 1867  ls
+ 1868  atom model.sdf 
+ 1869  cd ..
+ 1870  cd warehouseShelf_temp/
+ 1871  atom model.sdf 
+ 1872  cd ../../..
+ 1873  cd ../..
+ 1874  rosrun visual_guidance arcodeDetection 
+ 1875  cd src/visual_guidance/
+ 1876  ls
+ 1877  cd src/
+ 1878  ls
+ 1879  atom arcodeDetection.cpp 
+ 1880  rosrun visual_guidance arcodeDetection 
+ 1881  cd ../../..
+ 1882  catkin_make
+ 1883  clear
+ 1884  catkin_make
+ 1885  clear
+ 1886  catkin_make
+ 1887  rosrun visual_guidance arcodeDetection 
+ 1888  cd ~
+ 1889  rosbag play 2020-06-21-18-19-43.bag 
+ 1890  cd tello_ws/
+ 1891  source devel/setup.bash 
+ 1892  conda activate tello)env
+ 1893  conda activate tello_env
+ 1894  roslaunch tello_driver tello_node.launch 
+ 1895  conda deactivate
+ 1896  roslaunch tello_driver tello_node.launch 
+ 1897  pip install camera_info_manager_py
+ 1898  sudo apt-get install ros-kinetic-camera-info-manager
+ 1899  sudo apt-get install ros-kinetic-camera-info-manager-py 
+ 1900  roslaunch tello_driver tello_node.launch 
+ 1901  conda activate tello_env
+ 1902  roslaunch tello_driver tello_node.launch 
+ 1903  python
+ 1904  ls
+ 1905  cd cv/
+ 1906  ls
+ 1907  vf HW/
+ 1908  cd HW/
+ 1909  ls
+ 1910  cd hw7/
+ 1911  ls
+ 1912  cd solution/
+ 1913  ls
+ 1914  atom ans1_shitomasi.py 
+ 1915  cd ..
+ 1916  nautilus hw7/
+ 1917  cd hw7/
+ 1918  cd solution/
+ 1919  ls
+ 1920  python ans1_shitomasi.py 
+ 1921  cd ~
+ 1922  cd thesis/workSpace/
+ 1923  cd src/visual_guidance/
+ 1924  ls
+ 1925  cd src/
+ 1926  ls
+ 1927  atom arcodeDetection.cpp 
+ 1928  cd ../../..
+ 1929  source devel/setup.bash 
+ 1930  catkin_make 
+ 1931  rosrun visual_guidance arcodeDetection 
+ 1932  catkin_make 
+ 1933  rosrun visual_guidance arcodeDetection 
+ 1934  catkin_make 
+ 1935  rosrun visual_guidance arcodeDetection 
+ 1936  catkin_make 
+ 1937  rosrun visual_guidance arcodeDetection 
+ 1938  catkin_make 
+ 1939  clear
+ 1940  catkin_make 
+ 1941  rosrun visual_guidance arcodeDetection 
+ 1942  catkin_make 
+ 1943  rosrun visual_guidance arcodeDetection 
+ 1944  catkin_make 
+ 1945  rosrun visual_guidance arcodeDetection 
+ 1946  catkin_make 
+ 1947  rosrun visual_guidance arcodeDetection 
+ 1948  catkin_make 
+ 1949  rosrun visual_guidance arcodeDetection 
+ 1950  catkin_make 
+ 1951  clear
+ 1952  catkin_make 
+ 1953  rosrun visual_guidance arcodeDetection 
+ 1954  catkin_make 
+ 1955  rosrun visual_guidance arcodeDetection 
+ 1956  catkin_make 
+ 1957  rosrun visual_guidance arcodeDetection 
+ 1958  exit
+ 1959  cd thesis/workSpace/
+ 1960  cd src/visual_guidance/src/
+ 1961  atom utility.py
+ 1962  cd ../../..
+ 1963  cd ~
+ 1964  cd project_82/wd_ws/
+ 1965  source devel/setup.bash 
+ 1966  roslaunch simulate simulation.launch 
+ 1967  cd thesis/workSpace/
+ 1968  source devel/setup.bash 
+ 1969  roslaunch sim_gazebo tmp_sim.launch 
+ 1970  cd ~
+ 1971  cd project_82/wd_ws/
+ 1972  cd src/window_enterance/windowDetection/
+ 1973  arom test_node.py 
+ 1974  atom test_node.py 
+ 1975  atom windowFrameAnalysis.py
+ 1976  ./test_node.py 
+ 1977  conda activate tello_env
+ 1978  ./test_node.py 
+ 1979  atom utility.py
+ 1980  ./test_node.py 
+ 1981  exit
+ 1982  cd thesis/workSpace/
+ 1983  source devel/setup.bash 
+ 1984  roslaunch sim_gazebo tmp_sim.launch 
+ 1985  cmake ..
+ 1986  make
+ 1987  cmake ..
+ 1988  make
+ 1989  cd ..
+ 1990  python ans1_shitomasi.py 
+ 1991  python ans1_farneback.py 
+ 1992  cd build/
+ 1993  cmake ..
+ 1994  make
+ 1995  ./ans2_gmg 
+ 1996  make
+ 1997  ./ans2_mog
+ 1998  make
+ 1999  ./ans2_mog2 
+ 2000  python ans1_shitomasi.py 
+ 2001  history
+
