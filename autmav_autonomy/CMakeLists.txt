@@ -23,9 +23,9 @@ catkin_package(
 include_directories(
   ${catkin_INCLUDE_DIRS}
   ${OpenCV_INCLUDE_DIRS}
-  ${CMAKE_SOURCE_DIR}/${PROJECT_NAME}/include/${PROJECT_NAME}
-  ${CMAKE_SOURCE_DIR}/${PROJECT_NAME}/include/obstacle_detection
-  ${CMAKE_SOURCE_DIR}/${PROJECT_NAME}/include/arucoBoardDetector
+  ${CMAKE_SOURCE_DIR}/warehouse_drone/${PROJECT_NAME}/include/${PROJECT_NAME}
+  ${CMAKE_SOURCE_DIR}/warehouse_drone/${PROJECT_NAME}/include/obstacle_detection
+  ${CMAKE_SOURCE_DIR}/warehouse_drone/${PROJECT_NAME}/include/arucoBoardDetector
 )
 
 

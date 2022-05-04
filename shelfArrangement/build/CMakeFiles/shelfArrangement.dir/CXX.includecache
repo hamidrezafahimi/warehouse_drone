@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hamidreza/thesis/offline/shelfArrangement/shelfArrangement.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+string
+-
+bits/stdc++.h
+-
+sstream
+-
+

@@ -6,7 +6,7 @@
 #include "time.h"
 
 
-ArcodeDetector ad("/home/hamidreza/thesis/arcode/calib2.txt");
+ArcodeDetector ad("/home/hamidreza/thesis/workSpace/src/warehouse_drone/aruco_markers/calib2.txt");
 WarehouseStatist was;
 
 // PathGenerator pgn(10, 6, 0.572, 0.3, 8.01, 3.5, ad);

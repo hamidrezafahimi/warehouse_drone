@@ -1,0 +1,4 @@
+/home/hamidreza/thesis/offline/shelfArrangement/build/CMakeFiles/edit_cache.dir
+/home/hamidreza/thesis/offline/shelfArrangement/build/CMakeFiles/rebuild_cache.dir
+/home/hamidreza/thesis/offline/shelfArrangement/build/CMakeFiles/shelfArrangement.dir
+/home/hamidreza/thesis/offline/shelfArrangement/build/CMakeFiles/generateMaterialScript.dir
