@@ -29,7 +29,6 @@ std_msgs
 numpy
 ```
 
-
 ## Usage
 
 Source the workspace. (In its root folder:)
